@@ -247,12 +247,13 @@ def display_menu():
     print("=" * 40)
 
     print("1. Add student")
-    print("2. List students")
-    print("3. Search student")
-    print("4. Add grade")
-    print("5. Delete student")
-    print("6. Show statistics")
-    print("7. Exit")
+print("2. List students")
+print("3. Search student")
+print("4. Add grade")
+print("5. Delete student")
+print("6. Show statistics")
+print("7. Show top students")
+print("8. Exit")
 
     print("=" * 40)
 
@@ -287,9 +288,13 @@ def main():
         elif choice == "6":
             show_student_statistics(students)
 
-        elif choice == "7":
-            print("\nGoodbye!")
-            break
+       elif choice == "7":
+    print("\nTop students feature coming soon!")
+    
+elif choice == "8":
+    print("\nThank you for using the Student Management System!")
+    print("Goodbye!")
+    break
 
         else:
             print("\nInvalid option. Please try again.")
